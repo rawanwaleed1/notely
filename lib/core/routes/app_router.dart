@@ -5,6 +5,7 @@ import 'package:notely/features/authentication/presentaion/screens/forgot_passwo
 import 'package:notely/features/authentication/presentaion/screens/register_screen.dart';
 import 'package:notely/features/note/data/models/note_model.dart';
 import 'package:notely/features/note/presentaion/screens/notes_screen.dart';
+import 'package:notely/features/note/presentaion/screens/profile_screen.dart';
 import 'package:notely/features/note/presentaion/screens/upsert_notes_screen.dart';
 
 import '../../features/authentication/presentaion/screens/login_screen.dart';
@@ -40,6 +41,10 @@ class AppRouter {
         GoRoute(
           path: AppRoutes.notesScreen,
           builder: (context, state) => NotesScreen(),
+        ),
+        GoRoute(
+          path: AppRoutes.profileScreen,
+          builder: (context, state) => ProfileScreen(),
         ),
      ],
        initialLocation: AppRoutes.login,
