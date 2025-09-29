@@ -1,0 +1,35 @@
+{
+  "app_name": "Notely",
+  "login": {
+    "title": "Login",
+    "subtitle": "Welcome back to Notely",
+    "forgot_password": "Forgot Password?",
+    "no_account": "Don't have an account?"
+  },
+  "common": {
+    "email": "Email Address",
+    "password": "Password",
+    "editProfile": "Edit Profile",
+    "logout": "Logout"
+  },
+  "register": {
+    "title": "Create a free account",
+    "subtitle": "Join Notely for free. Create and share unlimited notes with your friends.",
+    "no_account": "Already have an account?",
+    "name": "Full Name",
+    "create_account": "Create Account"
+  },
+  "forgot_password": {
+    "title": "Forgot Password",
+    "subtitle": "We will send mail to reset your password",
+    "reset": "Reset",
+    "backToLogin": "Back to Login"
+  },
+  "notesScreen": {
+    "title": "All Notes",
+    "emptyTitle": "Create Your First Note",
+    "emptyDescription": "Add a note about anything (your thoughts on climate change, or your history essay) and share it witht the world.",
+    "createNote": "Create A Note",
+    "editNote": "Edit Note"
+  }
+}
