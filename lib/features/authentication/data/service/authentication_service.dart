@@ -39,5 +39,6 @@ class AuthenticationService{
   'email' : request.email,
   'userId' : currentUserId,
   });
+  FirebaseAuth.instance.currentUser?.updateDisplayName(request.name);
   }
 }

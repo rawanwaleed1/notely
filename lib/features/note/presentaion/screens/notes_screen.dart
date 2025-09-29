@@ -16,12 +16,20 @@ class NotesScreen extends StatefulWidget {
 
 class _NotesScreenState extends State<NotesScreen> {
 final stream = NoteService().getNotes();
+final _service = NoteService();
 
   @override
   Widget build(BuildContext context) {
+  final isMobile =MediaQuery.of(context).size.width<600;
+
+
     return Scaffold(
+    drawer: Drawer(),
     appBar: AppBar(
-    leading: IconButton(onPressed: (){},icon: Icon(Icons.menu)),
+    leading: IconButton(onPressed: (){
+    context.push(AppRoutes.profileScreen);
+
+    },icon: Icon(Icons.menu)),
     actions:[
       IconButton(onPressed: (){},icon: Icon(Icons.search))],
       centerTitle: true,
